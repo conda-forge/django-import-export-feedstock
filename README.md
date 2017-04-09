@@ -7,7 +7,7 @@ Package license: BSD 2-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Django application and library for importing and exportingdata with included admin integration.
+Summary: Django application and library for importing and exporting data with included admin integration.
 
 
 
