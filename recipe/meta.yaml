@@ -1,17 +1,16 @@
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 package:
   name: django-import-export
   version: {{ version }}
 
 source:
-  fn: django-import-export-{{ version }}.tar.gz
-  url: https://github.com/bmihelac/django-import-export/archive/{{ version }}.tar.gz
-  sha256: a977fad4affbb27693fa47297ac4f249276d2e4709a7ee365fc4b29729e3725a
+  url: https://pypi.io/packages/source/d/django-import-export/django-import-export-{{ version }}.tar.gz
+  sha256: 3e53b1cf5226fea2cecb9915f445ae2ed905f0de0d7f18148a60f98ff3446a86
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
