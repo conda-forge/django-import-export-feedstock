@@ -3,11 +3,11 @@ About django-import-export
 
 Home: https://github.com/bmihelac/django-import-export
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Django application and library for importing and exporting data with included admin integration.
+Summary: Django application and library for importing and exporting data with included admin integration
 
 
 
