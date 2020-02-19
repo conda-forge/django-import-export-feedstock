@@ -24,6 +24,10 @@ requirements:
     - diff-match-patch
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - import_export
     - import_export.formats
