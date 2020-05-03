@@ -1,4 +1,4 @@
-{% set version = "2.0.2" %}
+{% set version = "2.1.0" %}
 
 package:
   name: django-import-export
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/django-import-export/django-import-export-{{ version }}.tar.gz
-  sha256: 399cd1fb76b9cca89de67d5ab8e9257380f0f9a8bf61f1fab9d62b5230fb4587
+  sha256: 28784ba1754850059f3612c1b233c87f4c8658e01870c22e9d9d66ae7af1f41e
 
 build:
   number: 0
@@ -37,7 +37,7 @@ about:
   home: https://github.com/bmihelac/django-import-export
   license: BSD-2-Clause
   license_file: LICENSE
-  summary: 'Django application and library for importing and exporting data with included admin integration'
+  summary: Django application and library for importing and exporting data with included admin integration
 
 extra:
   recipe-maintainers:
