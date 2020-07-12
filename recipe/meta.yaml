@@ -1,4 +1,4 @@
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: django-import-export
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/django-import-export/django-import-export-{{ version }}.tar.gz
-  sha256: 83be410caca8c1b78585677c0fd7ae0e4de5dd5507ad3cea815fbcd29323f448
+  sha256: 21464304cb64e57809f3d6f5ad45108d5b02c556ab115b493a547304d2dddc70
 
 build:
   number: 0
