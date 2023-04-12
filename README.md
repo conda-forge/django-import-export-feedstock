@@ -1,11 +1,11 @@
-About django-import-export
-==========================
+About django-import-export-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-import-export-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/bmihelac/django-import-export
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-import-export-feedstock/blob/main/LICENSE.txt)
 
 Summary: Django application and library for importing and exporting data with included admin integration
 
