@@ -1,4 +1,4 @@
-{% set version = "4.1.1" %}
+{% set version = "4.2.0" %}
 
 package:
   name: django-import-export
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/django-import-export/django_import_export-{{ version }}.tar.gz
-  sha256: 16ecc5a9f0df46bde6eb278a3e65ebda0ee1db55656f36440e9fb83f40ab85a3
+  sha256: 6a616046498b44bf4291610609615b00101bb2b9c4701b59b78edfaa5552aa7b
 
 build:
   number: 0
@@ -19,9 +19,9 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - diff-match-patch
-    - django >=3.2
-    - tablib ==3.5.0
+    - diff-match-patch ==20241021
+    - django >=4.2
+    - tablib ==3.7.0
 
 test:
   requires:
