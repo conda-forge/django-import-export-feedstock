@@ -1,6 +1,6 @@
 {% set python_min = python_min|default("3.9") %}
 {% set name = "django-import-export" %}
-{% set version = "4.3.1" %}
+{% set version = "4.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/django_import_export-{{ version }}.tar.gz
-  sha256: 9e47bc3bf632d930870dab221c5ef0bb02c5d5efd3720c4607c08f3f946a1caa
+  sha256: 9a2475a70422c701b9fd6e556df48419a9380f74921a83e7f2e86664a0df0db7
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
     - python >={{ python_min }}
     - diff-match-patch ==20241021
     - django >=4.2
-    - tablib ==3.7.0
+    - tablib >=3.7.0
 
 test:
   requires:
