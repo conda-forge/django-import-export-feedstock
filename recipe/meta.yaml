@@ -1,4 +1,3 @@
-{% set python_min = python_min|default("3.9") %}
 {% set name = "django-import-export" %}
 {% set version = "4.3.3" %}
 
