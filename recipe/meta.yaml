@@ -1,6 +1,5 @@
-{% set python_min = python_min|default("3.9") %}
 {% set name = "django-import-export" %}
-{% set version = "4.3.2" %}
+{% set version = "4.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/django_import_export-{{ version }}.tar.gz
-  sha256: 9a2475a70422c701b9fd6e556df48419a9380f74921a83e7f2e86664a0df0db7
+  sha256: b261f44aedf572a69f975655afba15bff1e354eddd91d9c1bbd32d3cee44168d
 
 build:
   noarch: python
