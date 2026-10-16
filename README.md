@@ -3,11 +3,13 @@ About django-import-export-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-import-export-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/bmihelac/django-import-export
+Home: https://pypi.org/project/django-import-export/
 
 Package license: BSD-2-Clause
 
-Summary: Django application and library for importing and exporting data with included admin integration
+Summary: Django application and library for importing and exporting data with included admin integration.
+
+Documentation: https://django-import-export.readthedocs.io/en/stable/
 
 Current build status
 ====================
@@ -16,7 +18,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/django-import-export-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/django-import-export-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
@@ -38,31 +42,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `django-import-export` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install django-import-export
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install django-import-export
 ```
 
-It is possible to list all of the versions of `django-import-export` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add django-import-export
+# for installing globally
+pixi global install django-import-export
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `django-import-export` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search django-import-export --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search django-import-export --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search django-import-export --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -74,6 +120,8 @@ mamba repoquery whoneeds django-import-export --channel conda-forge
 # List dependencies of `django-import-export`:
 mamba repoquery depends django-import-export --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
